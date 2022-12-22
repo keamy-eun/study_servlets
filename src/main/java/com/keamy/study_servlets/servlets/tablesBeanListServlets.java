@@ -14,7 +14,7 @@ import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 
 @WebServlet(urlPatterns = "/tablesBeanListServlets")
-public class tablesBeanListServlets extends HttpServlet{
+public class TablesBeanListServlets extends HttpServlet{
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException{
         
         DataInfors dataInfors = new DataInfors();

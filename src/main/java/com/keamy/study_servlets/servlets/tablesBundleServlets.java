@@ -13,7 +13,7 @@ import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 
 @WebServlet(urlPatterns = "/tablesBundleServlets")
-public class tablesBundleServlets extends HttpServlet{
+public class TablesBundleServlets extends HttpServlet{
         protected void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException{
             response.setContentType("text/html;charset=UTF-8");
             
