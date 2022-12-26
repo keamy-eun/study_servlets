@@ -11,7 +11,7 @@ import jakarta.servlet.http.HttpServletResponse;
 import jakarta.servlet.http.HttpSession;
 
 // /session/createServlets?username=yojulab&password=1234
-@WebServlet(urlPatterns="/session/ctreateServlets")
+@WebServlet(urlPatterns="/session/createServlets")
 public class CreateSessionServlets extends HttpServlet{
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
@@ -35,5 +35,9 @@ public class CreateSessionServlets extends HttpServlet{
             printWriter.println("<div>Faild</div>");
         }
         printWriter.close();
+    }
+    @Override
+    protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        this.doGet(req, resp);  // method='post'를 사용하기위해 doPost 를 거쳐 doGet을 사용함
     }
 }
