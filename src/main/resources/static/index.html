@@ -49,6 +49,16 @@
       <form action="/tablesBeanListServlets" method="get">
         <button>tablesBeanListServlets</button>
       </form>
+      <div>
+        <a href="/session/createServlets?username=yojulab&password=1234"
+          >CreateSession java</a
+        >
+      </div>
+      <form action="/session/createServlets" method="post">
+        <input type="text" name="username" id="" value="yojulab" />
+        <input type="text" name="password" id="" value="1234" />
+        <button>/session/CreateServlets with post</button>
+      </form>
     </div>
   </body>
 </html>

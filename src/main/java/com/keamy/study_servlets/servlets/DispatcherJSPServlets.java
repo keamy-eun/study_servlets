@@ -1,7 +1,6 @@
 package com.keamy.study_servlets.servlets;
 
 import java.io.IOException;
-import java.io.PrintWriter;
 
 import jakarta.servlet.RequestDispatcher;
 import jakarta.servlet.ServletException;
