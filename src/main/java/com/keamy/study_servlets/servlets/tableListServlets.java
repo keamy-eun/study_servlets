@@ -72,6 +72,5 @@ public class TableListServlets extends HttpServlet{
 
         
             pw.close();
-
     }
 }
