@@ -6,7 +6,7 @@ import java.sql.SQLException;
 
 public class CommonsGetCon {
     public Connection getConnection(){
-        String url = "jdbc:mysql://localhost:3306/toy_servletWithDB";
+        String url = "jdbc:mysql://localhost:3306/toys_javaWithDB";
         String user = "root";
         String password = "*khacademy!";
 
