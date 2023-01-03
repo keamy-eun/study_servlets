@@ -24,15 +24,9 @@
       <table>
         <tr>
           <th><%= i+1%></th>
-          <td><%= userList.get(i).get("USER_UID")  %></td>
-          <td><%= userList.get(i).get("NAME")  %></td>
-          <td><%= userList.get(i).get("ID")  %></td>
-          <td><%= userList.get(i).get("PASSWORD")  %></td>
-          <td><%= userList.get(i).get("PHONE_NUMBER")  %></td>
-          <td><%= userList.get(i).get("BIRTHDAY")  %></td>
-          <td><%= userList.get(i).get("EMAIL")  %></td>
-          <td><%= userList.get(i).get("SMS_AD")  %></td>
-          <td><%= userList.get(i).get("EMAIL_AD") %></td>
+          <td><%= userList.get(i).get("QUESTIONS_UID")  %></td>
+          <td><%= userList.get(i).get("QUESTIONS")  %></td>
+          <td><%= userList.get(i).get("ORDERS")  %></td>
           <td>
         </tr>
       </table>
