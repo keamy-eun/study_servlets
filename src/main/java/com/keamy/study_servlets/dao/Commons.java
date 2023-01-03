@@ -9,7 +9,7 @@ import java.util.Date;
 
 public class Commons {
     public Statement getStatement(){
-        String url = "jdbc:mysql://localhost:3306/toys_JavaWithDB";
+        String url = "jdbc:mysql://localhost:3306/toys_javaWithDB";
         String user = "root";
         String password = "*khacademy!";
         Statement statement = null;
